@@ -264,21 +264,126 @@
     }
   ],
   "appointments": [
-    { "id": 1, "patientId": 1, "doctorId": 2, "date": "2025-10-22", "time": "10:30 AM", "status": "Confirmed" },
-    { "id": 2, "patientId": 3, "doctorId": 4, "date": "2025-10-23", "time": "11:00 AM", "status": "Pending" },
-    { "id": 3, "patientId": 5, "doctorId": 6, "date": "2025-10-24", "time": "9:00 AM", "status": "Confirmed" },
-    { "id": 4, "patientId": 8, "doctorId": 8, "date": "2025-10-25", "time": "2:30 PM", "status": "Pending" },
-    { "id": 5, "patientId": 10, "doctorId": 7, "date": "2025-10-25", "time": "3:00 PM", "status": "Confirmed" },
-    { "id": 6, "patientId": 2, "doctorId": 1, "date": "2025-10-26", "time": "1:30 PM", "status": "Pending" },
-    { "id": 7, "patientId": 4, "doctorId": 3, "date": "2025-10-27", "time": "10:00 AM", "status": "Confirmed" },
-    { "id": 8, "patientId": 6, "doctorId": 5, "date": "2025-10-27", "time": "11:30 AM", "status": "Cancelled" },
-    { "id": 9, "patientId": 12, "doctorId": 5, "date": "2025-10-28", "time": "3:00 PM", "status": "Confirmed" },
-    { "id": 10, "patientId": 13, "doctorId": 2, "date": "2025-10-28", "time": "12:30 PM", "status": "Confirmed" },
-    { "id": 11, "patientId": 15, "doctorId": 3, "date": "2025-10-29", "time": "9:00 AM", "status": "Pending" },
-    { "id": 12, "patientId": 16, "doctorId": 5, "date": "2025-10-30", "time": "2:00 PM", "status": "Confirmed" },
-    { "id": 13, "patientId": 18, "doctorId": 2, "date": "2025-10-30", "time": "11:00 AM", "status": "Pending" },
-    { "id": 14, "patientId": 19, "doctorId": 6, "date": "2025-11-01", "time": "4:00 PM", "status": "Confirmed" },
-    { "id": 15, "patientId": 20, "doctorId": 4, "date": "2025-11-02", "time": "1:00 PM", "status": "Confirmed" }
+    {
+      "id": 1,
+      "patientId": 1,
+      "doctorId": 2,
+      "date": "2025-10-22",
+      "time": "10:30 AM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 2,
+      "patientId": 3,
+      "doctorId": 4,
+      "date": "2025-10-23",
+      "time": "11:00 AM",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "patientId": 5,
+      "doctorId": 6,
+      "date": "2025-10-24",
+      "time": "9:00 AM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 4,
+      "patientId": 8,
+      "doctorId": 8,
+      "date": "2025-10-25",
+      "time": "2:30 PM",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "patientId": 10,
+      "doctorId": 7,
+      "date": "2025-10-25",
+      "time": "3:00 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 6,
+      "patientId": 2,
+      "doctorId": 1,
+      "date": "2025-10-26",
+      "time": "1:30 PM",
+      "status": "Pending"
+    },
+    {
+      "id": 7,
+      "patientId": 4,
+      "doctorId": 3,
+      "date": "2025-10-27",
+      "time": "10:00 AM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 8,
+      "patientId": 6,
+      "doctorId": 5,
+      "date": "2025-10-27",
+      "time": "11:30 AM",
+      "status": "Cancelled"
+    },
+    {
+      "id": 9,
+      "patientId": 12,
+      "doctorId": 5,
+      "date": "2025-10-28",
+      "time": "3:00 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 10,
+      "patientId": 13,
+      "doctorId": 2,
+      "date": "2025-10-28",
+      "time": "12:30 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 11,
+      "patientId": 15,
+      "doctorId": 3,
+      "date": "2025-10-29",
+      "time": "9:00 AM",
+      "status": "Pending"
+    },
+    {
+      "id": 12,
+      "patientId": 16,
+      "doctorId": 5,
+      "date": "2025-10-30",
+      "time": "2:00 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 13,
+      "patientId": 18,
+      "doctorId": 2,
+      "date": "2025-10-30",
+      "time": "11:00 AM",
+      "status": "Pending"
+    },
+    {
+      "id": 14,
+      "patientId": 19,
+      "doctorId": 6,
+      "date": "2025-11-01",
+      "time": "4:00 PM",
+      "status": "Confirmed"
+    },
+    {
+      "id": 15,
+      "patientId": 20,
+      "doctorId": 4,
+      "date": "2025-11-02",
+      "time": "1:00 PM",
+      "status": "Confirmed"
+    }
   ],
   "services": [
     {
@@ -323,15 +428,51 @@
     }
   ],
   "billing": [
-    { "id": 1, "patientId": 1, "amount": 1500, "status": "Paid" },
-    { "id": 2, "patientId": 3, "amount": 3500, "status": "Unpaid" },
-    { "id": 3, "patientId": 6, "amount": 2000, "status": "Paid" },
-    { "id": 4, "patientId": 10, "amount": 8000, "status": "Unpaid" },
-    { "id": 5, "patientId": 12, "amount": 2700, "status": "Paid" },
-    { "id": 6, "patientId": 15, "amount": 1500, "status": "Unpaid" },
-    { "id": 7, "patientId": 18, "amount": 2500, "status": "Paid" }
+    {
+      "id": 1,
+      "patientId": 1,
+      "amount": 1500,
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "patientId": 3,
+      "amount": 3500,
+      "status": "Unpaid"
+    },
+    {
+      "id": 3,
+      "patientId": 6,
+      "amount": 2000,
+      "status": "Paid"
+    },
+    {
+      "id": 4,
+      "patientId": 10,
+      "amount": 8000,
+      "status": "Unpaid"
+    },
+    {
+      "id": 5,
+      "patientId": 12,
+      "amount": 2700,
+      "status": "Paid"
+    },
+    {
+      "id": 6,
+      "patientId": 15,
+      "amount": 1500,
+      "status": "Unpaid"
+    },
+    {
+      "id": 7,
+      "patientId": 18,
+      "amount": 2500,
+      "status": "Paid"
+    }
   ],
-  "bots": [{
+  "bots": [
+    {
       "id": 101,
       "name": "wHz-93",
       "health": 94,
@@ -1685,1326 +1826,1185 @@
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/37991/p37991_v_v8_aa.jpg"
     }
   ],
-  "products": [
-    {
-      "name": "Sika Plastiment-40 KE (25 L)",
-      "sku": "678180",
-      "status": "stock",
-      "uom": "25 L",
-      "price": "5150.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/678180.jpg"
-    },
-                {
-      "name": "Sika Plastiment-40 KE (200 L)",
-                    "sku": "678179",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "37650.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/678179.jpg"
-                },
-                {
-      "name": "Sika Plastiment-40 KE (1000 L)",
-                    "sku": "678178",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "140250.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/678178.jpg"
-                },
-                {
-      "name": "Sika Plastocrete N (1 KG)",
-                    "sku": "804877",
-                    "status": "order",
-                    "uom": "1 KG",
-                    "price": "210.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/804877.jpg"
-                },
-                {
-      "name": "Sika Plastocrete N (5 L)",
-                    "sku": "527115",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "867.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527115.jpg"
-                },
-                {
-      "name": "Sika Plastocrete N (25 L)",
-                    "sku": "527114",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "4280.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527114.jpg"
-                },
-                {
-      "name": "Sika Plastocrete N (200 L)",
-                    "sku": "527113",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "32850.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527113.jpg"
-                },
-                {
-      "name": "Sika Plastocrete N (1000 L)",
-                    "sku": "527112",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "162500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527112.jpg"
-                },
-                {
-      "name": "Sikament NNG (5 L)",
-                    "sku": "542375",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1850.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/542375.jpg"
-                },
-                {
-      "name": "Sikament NNG (25 L)",
-                    "sku": "542374",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "8500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/542374.jpg"
-                },
-                {
-      "name": "Sikament NNG (200 L)",
-                    "sku": "542373",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "65000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/542373.jpg"
-                },
-                {
-      "name": "Sikament NNG (1000 L)",
-                    "sku": "541948",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "281000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/541948.jpg"
-                },
-                {
-      "name": "Sikament-508 NNR KE (5 L)",
-                    "sku": "550037",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1650.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550037.jpg"
-                },
-                {
-      "name": "Sikament-508 NNR KE (25 L)",
-                    "sku": "550038",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "7350.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550038.jpg"
-                },
-                {
-      "name": "Sikament-508 NNR KE (200 L)",
-                    "sku": "550039",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "56000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550039.jpg"
-                },
-                {
-      "name": "Sikament-508 NNR KE (1000 L)",
-                    "sku": "550040",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "239000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550040.jpg"
-                },
-                {
-      "name": "SikaPlast V-220 (5 L)",
-                    "sku": "527474",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1970.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527474.jpg"
-                },
-                {
-      "name": "SikaPlast V-220 (25 L)",
-                    "sku": "527473",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "9300.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527473.jpg"
-                },
-                {
-      "name": "SikaPlast V-220 (200 L)",
-                    "sku": "527472",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "72000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527472.jpg"
-                },
-                {
-      "name": "SikaPlast V-220 (1000 L)",
-                    "sku": "527471",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "321000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527471.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 20 HE KE (5 L)",
-                    "sku": "527484",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "3000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527484.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 20 HE KE (25 L)",
-                    "sku": "527483",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "14500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527483.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 20 HE KE (200 L)",
-                    "sku": "527482",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "111000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527482.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 20 HE KE (1000 L)",
-                    "sku": "564590",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "531000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/564590.jpg"
-                },
-                {
-      "name": "Sika Viscocrete GL 3889 (5 L)",
-                    "sku": "833905",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1300.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/833905.jpg"
-                },
-                {
-      "name": "Sika Viscocrete GL 3889 (25 L)",
-                    "sku": "833904",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "6300.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/833904.jpg"
-                },
-                {
-      "name": "Sika Viscocrete GL 3889 (200 L)",
-                    "sku": "833903",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "50000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/833903.jpg"
-                },
-                {
-      "name": "Sika Viscocrete GL 3889 (1000 L)",
-                    "sku": "833902",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "210000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/833902.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 3088 KE (5 L)",
-                    "sku": "527383",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "2400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527383.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 3088 KE (25 L)",
-                    "sku": "527382",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "11000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527382.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 3088 KE (200 L)",
-                    "sku": "527381",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "85000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527381.jpg"
-                },
-                {
-      "name": "Sika Viscocrete 3088 KE (1000 L)",
-                    "sku": "527380",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "372000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527380.jpg"
-                },
-                {
-      "name": "Sika Viscoflow-615 KE (5 L)",
-                    "sku": "550033",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "2400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550033.jpg"
-                },
-                {
-      "name": "Sika Viscoflow-615 KE (25 L)",
-                    "sku": "550034",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "12000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550034.jpg"
-                },
-                {
-      "name": "Sika Viscoflow-615 KE (200 L)",
-                    "sku": "550035",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "93000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550035.jpg"
-                },
-                {
-      "name": "Sika Viscoflow-615 KE (1000 L)",
-                    "sku": "550036",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "410000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/550036.jpg"
-                },
-                {
-      "name": "Sika Paver-1 C+ (5 L)",
-                    "sku": "555065",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1200.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/555065.jpg"
-                },
-                {
-      "name": "Sika Paver-1 C+ (25 L)",
-                    "sku": "555064",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "5500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/555064.jpg"
-                },
-                {
-      "name": "Sika Paver-1 C+ (200 L)",
-                    "sku": "555060",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "35000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/555060.jpg"
-                },
-                {
-      "name": "Sika Paver-1 C+ (1000 L)",
-                    "sku": "552828",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "142000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/552828.jpg"
-                },
-                {
-      "name": "Sika Paver HC-2 KE (5 L)",
-                    "sku": "526726",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526726.jpg"
-                },
-                {
-      "name": "Sika Paver HC-2 KE (25 L)",
-                    "sku": "526725",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "6500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526725.jpg"
-                },
-                {
-      "name": "Sika Paver HC-2 KE (200 L)",
-                    "sku": "526724",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "50000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526724.jpg"
-                },
-                {
-      "name": "Sika Paver HC-2 KE (1000 L)",
-                    "sku": "526723",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "222000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526723.jpg"
-                },
-                {
-      "name": "Sika Rapid-2 KE (5 L)",
-                    "sku": "526791",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "2500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526791.jpg"
-                },
-                {
-      "name": "Sika Rapid-2 KE (25 L)",
-                    "sku": "526789",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "11000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526789.jpg"
-                },
-                {
-      "name": "Sika Rapid-2 KE (200 L)",
-                    "sku": "526788",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "84000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526788.jpg"
-                },
-                {
-      "name": "Sika Rapid-2 KE (1000 L)",
-                    "sku": "526729",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "410000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526729.jpg"
-                },
-                {
-      "name": "Sika Retarder KE (5 L)",
-                    "sku": "527481",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1300.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527481.jpg"
-                },
-                {
-      "name": "Sika Retarder KE (25 L)",
-                    "sku": "527480",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "5800.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527480.jpg"
-                },
-                {
-      "name": "Sika Retarder KE (200 L)",
-                    "sku": "527479",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "40000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527479.jpg"
-                },
-                {
-      "name": "Sika Retarder KE (1000 L)",
-                    "sku": "527478",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "162000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527478.jpg"
-                },
-                {
-      "name": "SikaForm Oil (5 L)",
-                    "sku": "834005",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1700.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/834005.jpg"
-                },
-                {
-      "name": "SikaForm Oil (25 L)",
-                    "sku": "834004",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "7800.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/834004.jpg"
-                },
-                {
-      "name": "SikaForm Oil (200 L)",
-                    "sku": "834003",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "61000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/834003.jpg"
-                },
-                {
-      "name": "SikaForm Oil (1000 L)",
-                    "sku": "834002",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "270000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/834002.jpg"
-                },
-                {
-      "name": "Sika Decap KE (5 L)",
-                    "sku": "527355",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "5500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527355.jpg"
-                },
-                {
-      "name": "Sika Decap KE (25 L)",
-                    "sku": "527513",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "24000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527513.jpg"
-                },
-                {
-      "name": "Sika Decap KE (200 L)",
-                    "sku": "527354",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "178000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527354.jpg"
-                },
-                {
-      "name": "Sika Decap KE (1000 L)",
-                    "sku": "715749",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "856000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/715749.jpg"
-                },
-                {
-      "name": "Sika Fiber 12mm (0.9 kg)",
-                    "sku": "448366",
-                    "status": "stock",
-                    "uom": "0.9 KG",
-                    "price": "595.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/448366.jpg"
-                },
-                {
-      "name": "Sika Fiber 18mm (0.9 kg)",
-                    "sku": "649449",
-                    "status": "stock",
-                    "uom": "0.9 KG",
-                    "price": "610.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/649449.jpg"
-                },
-                {
-      "name": "SikaControl-110 WT KE (1 kg)",
-                    "sku": "837517",
-                    "status": "order",
-                    "uom": "1 KG",
-                    "price": "400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/837517.jpg"
-                },
-                {
-      "name": "SikaControl-110 WT KE (5 L)",
-                    "sku": "789702",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1700.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/789702.jpg"
-                },
-                {
-      "name": "SikaControl-110 WT KE (25 L)",
-                    "sku": "789703",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "8350.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/789703.jpg"
-                },
-                {
-      "name": "SikaControl-110 WT KE (200 L)",
-                    "sku": "789537",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "66000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/789537.jpg"
-                },
-                {
-      "name": "SikaControl-110 WT KE (1000 L)",
-                    "sku": "789684",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "308000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/789684.jpg"
-                },
-                {
-      "name": "Sika Antisol E-40 (5 L)",
-                    "sku": "838243",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "1400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838243.jpg"
-                },
-                {
-      "name": "Sika Antisol E-40 (25 L)",
-                    "sku": "838322",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "6750.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838322.jpg"
-                },
-                {
-      "name": "Sika Antisol E-40 (200 L)",
-                    "sku": "838321",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "52000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838321.jpg"
-                },
-                {
-      "name": "Sika Antisol E-40 (1000 L)",
-                    "sku": "838320",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "216000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838320.jpg"
-                },
-                {
-      "name": "SikaLatex KE (1 kg)",
-                    "sku": "804946",
-                    "status": "order",
-                    "uom": "1 KG",
-                    "price": "500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/804946.jpg"
-                },
-                {
-      "name": "SikaLatex KE (5 L)",
-                    "sku": "526722",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "2150.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526722.jpg"
-                },
-                {
-      "name": "SikaLatex KE (25 L)",
-                    "sku": "526721",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "10500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526721.jpg"
-                },
-                {
-      "name": "SikaLatex KE (200 L)",
-                    "sku": "526720",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "81000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526720.jpg"
-                },
-                {
-      "name": "SikaLatex KE (1000 L)",
-                    "sku": "526709",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "410000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/526709.jpg"
-                },
-                {
-      "name": "SikaLatex-141  KEN Ka (5 L)",
-                    "sku": "837988",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "2850.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/837988.jpg"
-                },
-                {
-      "name": "SikaLatex-141  KEN Ka (25 L)",
-                    "sku": "837989",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "13500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/837989.jpg"
-                },
-                {
-      "name": "SikaLatex-141  KEN Dr (200 L)",
-                    "sku": "838068",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "105000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838068.jpg"
-                },
-                {
-      "name": "SikaLatex-141  KEN Co (1000 L)",
-                    "sku": "838067",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "478000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/838067.jpg"
-                },
-                {
-      "name": "Sikalite KE (0.5 kg)",
-                    "sku": "795163",
-                    "status": "stock",
-                    "uom": "0.5 KG",
-                    "price": "80.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/795163.jpg"
-                },
-                {
-      "name": "Sikalite KE (1 kg)",
-                    "sku": "524925",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "145.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/524925.jpg"
-                },
-                {
-      "name": "Sikalite KE (20 kg)",
-                    "sku": "530190",
-                    "status": "stock",
-                    "uom": "20 KG",
-                    "price": "2800.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/530190.jpg"
-                },
-                {
-      "name": "Sika Cemflex KE (5 L)",
-                    "sku": "525495",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "5250.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/525495.jpg"
-                },
-                {
-      "name": "Sika Cemflex KE (25 L)",
-                    "sku": "525510",
-                    "status": "stock",
-                    "uom": "25 L",
-                    "price": "24600.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/525510.jpg"
-                },
-                {
-      "name": "Sika Cemflex KE (200 L)",
-                    "sku": "525512",
-                    "status": "stock",
-                    "uom": "200 L",
-                    "price": "192550.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/525512.jpg"
-                },
-                {
-      "name": "Sika Cemflex KE (1000 L)",
-                    "sku": "525513",
-                    "status": "stock",
-                    "uom": "1000 L",
-                    "price": "882850.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/525513.jpg"
-                },
-                {
-      "name": "Geotextile 110gr",
-                    "sku": "633812",
-                    "status": "order",
-                    "uom": "1 M2",
-                    "price": "190.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/633812.jpg"
-                },
-                {
-      "name": "SikaTop-501 Seal (25 kg)",
-                    "sku": "837174",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "6000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/837174.jpg"
-                },
-                {
-      "name": "Sikadur Combiflex SG-10 M 150 (25 m)",
-                    "sku": "406600",
-                    "status": "order",
-                    "uom": "25 M1",
-                    "price": "44065.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/406600.jpg"
-                },
-                {
-      "name": "Sika Swell S-2 Oxyd Red (600 ml)",
-                    "sku": "496479",
-                    "status": "order",
-                    "uom": "600 ML",
-                    "price": "4440.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/496479.jpg"
-                },
-                {
-      "name": "Sika Swell A-2005 Red (20 m)",
-                    "sku": "169788",
-                    "status": "order",
-                    "uom": "20 M1",
-                    "price": "19380.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/169788.jpg"
-                },
-                {
-      "name": "Sika Waterbar V-15 (30 m)",
-                    "sku": "787414",
-                    "status": "order",
-                    "uom": "30 M1",
-                    "price": "21880.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/787414.jpg"
-                },
-                {
-      "name": "Sika Waterbar V-20 (30 m)",
-                    "sku": "787313",
-                    "status": "order",
-                    "uom": "30 M1",
-                    "price": "33800.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/787313.jpg"
-                },
-                {
-      "name": "Sika Waterbar V-20 Light (30 m)",
-                    "sku": "787413",
-                    "status": "order",
-                    "uom": "30 M1",
-                    "price": "21200.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/787413.jpg"
-                },
-                {
-      "name": "Sika Waterbar V-24 (30 m)",
-                    "sku": "97396",
-                    "status": "order",
-                    "uom": "30 M1",
-                    "price": "61850.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/97396.jpg"
-                },
-                {
-      "name": "Sika Waterbar V-24 Light (30 m)",
-                    "sku": "116870",
-                    "status": "order",
-                    "uom": "30 M1",
-                    "price": "44700.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/116870.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-20 (15 m)",
-                    "sku": "787314",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "23200.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/787314.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-20 Light (15 m)",
-                    "sku": "788257",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "14880.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/788257.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-25 (15 m)",
-                    "sku": "97390",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "47710.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/97390.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-25 Light (15 m)",
-                    "sku": "116883",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "25400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/116883.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-32 (15 m)",
-                    "sku": "787328",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "46920.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/787328.jpg"
-                },
-                {
-      "name": "Sika Waterbar O-32 Light (15 m)",
-                    "sku": "551341",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "33550.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/551341.jpg"
-                },
-                {
-      "name": "Sika Waterbar AR-25 (15 m)",
-                    "sku": "788434",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "25229.70",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/788434.jpg"
-                },
-                {
-      "name": "Sika Waterbar DR-26 (15 m)",
-                    "sku": "409451",
-                    "status": "order",
-                    "uom": "15 M1",
-                    "price": "41835.30",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/409451.jpg"
-                },
-                {
-      "name": "Sika Waterbar Welding Frame",
-                    "sku": "587714",
-                    "status": "order",
-                    "uom": "PIECE",
-                    "price": "27540.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/587714.jpg"
-                },
-                {
-      "name": "Sika Waterbar Welding Knife",
-                    "sku": "436548",
-                    "status": "order",
-                    "uom": "PIECE",
-                    "price": "42450.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/436548.jpg"
-                },
-                {
-      "name": "Clips for Waterbars (60 pieces in a set)",
-                    "sku": "123295",
-                    "status": "order",
-                    "uom": "SET",
-                    "price": "12740.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/123295.jpg"
-                },
-                {
-      "name": "SikaShield P24 MG 4.5kg/m2 (10 m2)",
-                    "sku": "683369",
-                    "status": "stock",
-                    "uom": "ROLL",
-                    "price": "6681.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/683369.jpg"
-                },
-                {
-      "name": "SikaShield P24 PE 4mm (10 m2)",
-                    "sku": "683430",
-                    "status": "stock",
-                    "uom": "ROLL",
-                    "price": "7599.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/683430.jpg"
-                },
-                {
-      "name": "SikaShield W154 PE EG 2mm (15 m2)",
-                    "sku": "770972",
-                    "status": "stock",
-                    "uom": "ROLL",
-                    "price": "17365.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/770972.jpg"
-                },
-                {
-      "name": "SikaShield W1 EG (25 kg)",
-                    "sku": "772524",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "4830.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/772524.jpg"
-                },
-                {
-      "name": "Sika WP Shield Primer (18 kg)",
-                    "sku": "680648",
-                    "status": "stock",
-                    "uom": "18 KG",
-                    "price": "4735.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/680648.jpg"
-                },
-                {
-      "name": "Sika MonoTop 610 (25 kg)",
-                    "sku": "641238",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "2400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/641238.jpg"
-                },
-                {
-      "name": "Sika MonoTop 4012 KE (25 kg)",
-                    "sku": "855616",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "2500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/855616.jpg"
-                },
-                {
-      "name": "Sika MonoTop 620 (25 kg)",
-                    "sku": "524884",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "3500.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/524884.jpg"
-                },
-                {
-      "name": "SikaTop-105 Seal KE (25 kg)",
-                    "sku": "25",
-                    "status": "stock",
-                    "uom": "KG",
-                    "price": "3400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/25.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) beige",
-                    "sku": "812454",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "310.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812454.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) ivory",
-                    "sku": "812456",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "310.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812456.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) white",
-                    "sku": "812216",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "310.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812216.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) brown",
-                    "sku": "812457",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "310.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812457.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) grey",
-                    "sku": "812215",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "260.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812215.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (3 kg) black",
-                    "sku": "812455",
-                    "status": "stock",
-                    "uom": "3 KG",
-                    "price": "400.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/812455.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) grey",
-                    "sku": "821177",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "95.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821177.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) white",
-                    "sku": "821179",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "115.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821179.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) brown",
-                    "sku": "821176",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "95.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821176.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) ivory",
-                    "sku": "821175",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "110.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821175.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) black",
-                    "sku": "821178",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "142.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821178.jpg"
-                },
-                {
-      "name": "SikaCeram-650 Tile Grout KE (1 kg) beige",
-                    "sku": "821174",
-                    "status": "stock",
-                    "uom": "1 KG",
-                    "price": "110.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/821174.jpg"
-                },
-                {
-      "name": "Sikagard 701 W (5 L)",
-                    "sku": "527485",
-                    "status": "stock",
-                    "uom": "5 L",
-                    "price": "4150.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/527485.jpg"
-                },
-                {
-      "name": "Sikagard 701 W (20 kg)",
-                    "sku": "440860",
-                    "status": "stock",
-                    "uom": "20 KG",
-                    "price": "16065.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/440860.jpg"
-                },
-                {
-      "name": "Purigo-5 S (5 kg)",
-                    "sku": "712207",
-                    "status": "stock",
-                    "uom": "5 KG",
-                    "price": "1330.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/712207.jpg"
-                },
-                {
-      "name": "Purigo-5 S (25 kg)",
-                    "sku": "712208",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "6225.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/712208.jpg"
-                },
-                {
-      "name": "Purigo-5 S (200 kg)",
-                    "sku": "713869",
-                    "status": "stock",
-                    "uom": "200 KG",
-                    "price": "48895.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/713869.jpg"
-                },
-                {
-      "name": "Purigo-5 S (1000 kg)",
-                    "sku": "674956",
-                    "status": "stock",
-                    "uom": "1000 KG",
-                    "price": "178810.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/674956.jpg"
-                },
-                {
-      "name": "Sikafloor-3 Quartz Top Grey (25kg)",
-                    "sku": "525023",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "1205.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/525023.jpg"
-                },
-                {
-      "name": "Sikadur-508 (25kg) 0.1-0.3 mm",
-                    "sku": "555067",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "1350.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/555067.jpg"
-                },
-                {
-      "name": "Sikadur-507 MS (25kg) 0.3-0.7 mm",
-                    "sku": "665616",
-                    "status": "stock",
-                    "uom": "25 KG",
-                    "price": "1250.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/665616.jpg"
-                },
-                {
-      "name": "Sikalastic 560 GCC grey (20 kg)",
-                    "sku": "502449",
-                    "status": "order",
-                    "uom": "20 KG",
-                    "price": "32000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/502449.jpg"
-                },
-                {
-      "name": "Sikalastic 560 GCC white (20 kg)",
-                    "sku": "445818",
-                    "status": "order",
-                    "uom": "20 KG",
-                    "price": "32000.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/445818.jpg"
-                },
-                {
-      "name": "Sikaflex-263 black (600 ml)",
-                    "sku": "448198",
-                    "status": "stock",
-                    "uom": "600 ML",
-                    "price": "1915.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/448198.jpg"
-                },
-                {
-      "name": "SikaPrimer-206 G+P (250 ml)",
-                    "sku": "1419",
-                    "status": "stock",
-                    "uom": "250 ML",
-                    "price": "15200.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/1419.jpg"
-                },
-                {
-      "name": "Sikaflex 221 white (600 ml)",
-                    "sku": "32496",
-                    "status": "stock",
-                    "uom": "600 ML",
-                    "price": "1570.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/32496.jpg"
-                },
-                {
-      "name": "Sikaflex 221 black (600 ml)",
-                    "sku": "46870",
-                    "status": "stock",
-                    "uom": "600 ML",
-                    "price": "1570.00",
-                    "image_url": "https://ken.sika.com/content/dam/dms/ke01/46870.jpg"
-                },
-    {
-      "name": "Sika Grout 212 (25 kg)",
-      "sku": "524880",
-      "status": "stock",
-      "uom": "25 KG",
-      "price": "1759.50",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/524880.jpg"
-    },
-    {
-      "name": "Sika Grout 217 (25 kg)",
-      "sku": "681020",
-      "status": "stock",
-      "uom": "25 KG",
-      "price": "1970.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/681020.jpg"
-    },
-    {
-      "name": "Sika Grout 340 (25 kg)",
-      "sku": "812368",
-      "status": "order",
-      "uom": "25 KG",
-      "price": "5334.60",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/812368.jpg"
-    },
-    {
-      "name": "Sika Anchorfix-1 (300 ml)",
-      "sku": "517354",
-      "status": "order",
-      "uom": "300 ML",
-      "price": "2230.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/517354.jpg"
-    },
-    {
-      "name": "Sika Anchorfix-3001 (250 ml)",
-      "sku": "673314",
-      "status": "order",
-      "uom": "250 ML",
-      "price": "3285.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/673314.jpg"
-    },
-    {
-      "name": "Sika Injection-107 (5.3 kg)",
-      "sku": "531919",
-      "status": "order",
-      "uom": "5.3 KG",
-      "price": "39000.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/531919.jpg"
-    },
-    {
-      "name": "Sika Injection-107 (10.6 kg)",
-      "sku": "513424",
-      "status": "order",
-      "uom": "10.6 KG",
-      "price": "70000.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/513424.jpg"
-    },
-    {
-      "name": "Sika Colma Cleaner (5 L)",
-      "sku": "527486",
-      "status": "stock",
-      "uom": "5 L",
-      "price": "5600.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/527486.jpg"
-    },
-    {
-      "name": "Sikaflex-11FC+ grey (300 ml)",
-      "sku": "1032",
-      "status": "stock",
-      "uom": "300 ML",
-      "price": "1070.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/1032.jpg"
-    },
-    {
-      "name": "Sikaflex-11FC Purform grey (600 ml)",
-      "sku": "644642",
-      "status": "stock",
-      "uom": "600 ML",
-      "price": "1560.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/644642.jpg"
-    },
-    {
-      "name": "Sikaflex Construction+ grey (600 ml)",
-      "sku": "433201",
-      "status": "stock",
-      "uom": "600 ML",
-      "price": "1310.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/433201.jpg"
-    },
-    {
-      "name": "Sikaflex PRO-3 Purform grey (600 ml)",
-      "sku": "694153",
-      "status": "stock",
-      "uom": "600 ML",
-      "price": "1570.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/694153.jpg"
-    },
-    {
-      "name": "Sikaflex-406 KC (10 L)",
-      "sku": "567912",
-      "status": "stock",
-      "uom": "10 L",
-      "price": "33000.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/567912.jpg"
-    },
-    {
-      "name": "Sikaflex-406 KC Booster (150 ml)",
-      "sku": "619221",
-      "status": "stock",
-      "uom": "150 ML",
-      "price": "2100.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/619221.jpg"
-    },
-    {
-      "name": "SikaPrimer-101 (0.75 L)",
-      "sku": "801764",
-      "status": "stock",
-      "uom": "0.75 L",
-      "price": "3265.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/801764.jpg"
-    },
-    {
-      "name": "Sika Manual Gun 400/600ml",
-      "sku": "117529",
-      "status": "stock",
-      "uom": "PIECE",
-      "price": "8400.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/117529.jpg"
-    },
-    {
-      "name": "SikaBoom P (750 ml)",
-      "sku": "629636",
-      "status": "stock",
-      "uom": "750 ML",
-      "price": "900.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/629636.jpg"
-    },
-    {
-      "name": "SikaCeram-205 white (25 kg)",
-      "sku": "524738",
-      "status": "stock",
-      "uom": "25 KG",
-      "price": "1510.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/524738.jpg"
-    },
-    {
-      "name": "SikaCeram-80 Ceramic (20 kg)",
-      "sku": "789710",
-      "status": "stock",
-      "uom": "20 KG",
-      "price": "640.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/789710.jpg"
-    },
-    {
-      "name": "SikaCeram-105 Porcelain (20 kg)",
-      "sku": "789653",
-      "status": "stock",
-      "uom": "20 KG",
-      "price": "930.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/789653.jpg"
-    },
-    {
-      "name": "SikaCeram-205 Granite (20 kg)",
-      "sku": "789636",
-      "status": "stock",
-      "uom": "20 KG",
-      "price": "1185.00",
-      "image_url": "https://ken.sika.com/content/dam/dms/ke01/789636.jpg"
-    }
-  ]
+  "products": {
+    "Concrete Admixtures": [
+      {
+        "name": "Sika Plastiment-40 KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 5150.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastiment-40 KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 37650.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastiment-40 KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 140250.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastocrete N (1 KG)",
+        "status": "order",
+        "uom": "1 KG",
+        "price": 210.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastocrete N (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 867.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastocrete N (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 4280.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastocrete N (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 32850.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Plastocrete N (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 162500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament NNG (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1850.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament NNG (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 8500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament NNG (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 65000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament NNG (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 281000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament-508 NNR KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1650.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament-508 NNR KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 7350.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament-508 NNR KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 56000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikament-508 NNR KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 239000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPlast V-220 (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1970.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPlast V-220 (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 9300.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPlast V-220 (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 72000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPlast V-220 (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 321000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 20 HE KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 3000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 20 HE KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 14500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 20 HE KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 111000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 20 HE KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 531000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete GL 3889 (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1300.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete GL 3889 (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 6300.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete GL 3889 (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 50000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete GL 3889 (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 210000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 3088 KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 2400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 3088 KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 11000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 3088 KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 85000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscocrete 3088 KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 372000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscoflow-615 KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 2400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscoflow-615 KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 12000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscoflow-615 KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 93000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Viscoflow-615 KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 410000.0,
+        "image_url": ""
+      }
+    ],
+    "Concrete Essentials": [
+      {
+        "name": "Sika Paver-1 C+ (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1200.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver-1 C+ (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 5500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver-1 C+ (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 35000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver-1 C+ (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 142000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver HC-2 KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver HC-2 KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 6500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver HC-2 KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 50000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Paver HC-2 KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 222000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Rapid-2 KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 2500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Rapid-2 KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 11000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Rapid-2 KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 84000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Rapid-2 KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 410000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Retarder KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1300.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Retarder KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 5800.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Retarder KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 40000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Retarder KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 162000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaForm Oil (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1700.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaForm Oil (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 7800.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaForm Oil (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 61000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaForm Oil (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 270000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Decap KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 5500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Decap KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 24000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Decap KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 178000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Decap KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 856000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Fiber 12mm (0.9 kg)",
+        "status": "stock",
+        "uom": "0.9 KG",
+        "price": 595.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Fiber 18mm (0.9 kg)",
+        "status": "stock",
+        "uom": "0.9 KG",
+        "price": 610.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaControl-110 WT KE (1 kg)",
+        "status": "order",
+        "uom": "1 KG",
+        "price": 400.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaControl-110 WT KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1700.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaControl-110 WT KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 8350.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaControl-110 WT KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 66000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaControl-110 WT KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 308000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikalite KE (0.5 kg)",
+        "status": "stock",
+        "uom": "0.5 KG",
+        "price": 80.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikalite KE (1 kg)",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 145.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikalite KE (20 kg)",
+        "status": "stock",
+        "uom": "20 KG",
+        "price": 2800.0,
+        "image_url": ""
+      }
+    ],
+    "Mortar Admixtures": [
+      {
+        "name": "Sika Antisol E-40 (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 1400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Antisol E-40 (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 6750.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Antisol E-40 (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 52000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Antisol E-40 (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 216000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex KE (1 kg)",
+        "status": "order",
+        "uom": "1 KG",
+        "price": 500.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 2150.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 10500.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 81000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 410000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex-141  KEN Ka (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 2850.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex-141  KEN Ka (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 13500.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex-141  KEN Dr (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 105000.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaLatex-141  KEN Co (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 478000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Cemflex KE (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 5250.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Cemflex KE (25 L)",
+        "status": "stock",
+        "uom": "25 L",
+        "price": 24600.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Cemflex KE (200 L)",
+        "status": "stock",
+        "uom": "200 L",
+        "price": 192550.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Cemflex KE (1000 L)",
+        "status": "stock",
+        "uom": "1000 L",
+        "price": 882850.0,
+        "image_url": ""
+      }
+    ],
+    "Industry": [
+      {
+        "name": "Geotextile 110gr",
+        "status": "order",
+        "uom": "1 M2",
+        "price": 190.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Colma Cleaner (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 5600.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Manual Gun 400/600ml",
+        "status": "stock",
+        "uom": "PIECE",
+        "price": 8400.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaBoom P (750 ml)",
+        "status": "stock",
+        "uom": "750 ML",
+        "price": 900.0,
+        "image_url": ""
+      }
+    ],
+    "Repair Mortars and Grouts": [
+      {
+        "name": "SikaTop-501 Seal (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 6000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika MonoTop 610 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 2400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika MonoTop 4012 KE (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 2500.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika MonoTop 620 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 3500.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaTop-105 Seal KE (25 kg)",
+        "status": "stock",
+        "uom": "KG",
+        "price": 3400.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) beige",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 310.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) ivory",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 310.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) white",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 310.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) brown",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 310.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) grey",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 260.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (3 kg) black",
+        "status": "stock",
+        "uom": "3 KG",
+        "price": 400.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) grey",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 95.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) white",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 115.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) brown",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 95.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) ivory",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 110.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) black",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 142.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-650 Tile Grout KE (1 kg) beige",
+        "status": "stock",
+        "uom": "1 KG",
+        "price": 110.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Grout 212 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1759.5,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Grout 217 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1970.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Grout 340 (25 kg)",
+        "status": "order",
+        "uom": "25 KG",
+        "price": 5334.6,
+        "image_url": ""
+      }
+    ],
+    "Waterproofing": [
+      {
+        "name": "Sikadur Combiflex SG-10 M 150 (25 m)",
+        "status": "order",
+        "uom": "25 M1",
+        "price": 44065.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Swell S-2 Oxyd Red (600 ml)",
+        "status": "order",
+        "uom": "600 ML",
+        "price": 4440.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Swell A-2005 Red (20 m)",
+        "status": "order",
+        "uom": "20 M1",
+        "price": 19380.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar V-15 (30 m)",
+        "status": "order",
+        "uom": "30 M1",
+        "price": 21880.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar V-20 (30 m)",
+        "status": "order",
+        "uom": "30 M1",
+        "price": 33800.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar V-20 Light (30 m)",
+        "status": "order",
+        "uom": "30 M1",
+        "price": 21200.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar V-24 (30 m)",
+        "status": "order",
+        "uom": "30 M1",
+        "price": 61850.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar V-24 Light (30 m)",
+        "status": "order",
+        "uom": "30 M1",
+        "price": 44700.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-20 (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 23200.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-20 Light (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 14880.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-25 (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 47710.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-25 Light (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 25400.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-32 (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 46920.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar O-32 Light (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 33550.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar AR-25 (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 25229.7,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar DR-26 (15 m)",
+        "status": "order",
+        "uom": "15 M1",
+        "price": 41835.3,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar Welding Frame",
+        "status": "order",
+        "uom": "PIECE",
+        "price": 27540.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Waterbar Welding Knife",
+        "status": "order",
+        "uom": "PIECE",
+        "price": 42450.0,
+        "image_url": ""
+      },
+      {
+        "name": "Clips for Waterbars (60 pieces in a set)",
+        "status": "order",
+        "uom": "SET",
+        "price": 12740.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaShield P24 MG 4.5kg/m2 (10 m2)",
+        "status": "stock",
+        "uom": "ROLL",
+        "price": 6681.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaShield P24 PE 4mm (10 m2)",
+        "status": "stock",
+        "uom": "ROLL",
+        "price": 7599.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaShield W154 PE EG 2mm (15 m2)",
+        "status": "stock",
+        "uom": "ROLL",
+        "price": 17365.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaShield W1 EG (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 4830.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika WP Shield Primer (18 kg)",
+        "status": "stock",
+        "uom": "18 KG",
+        "price": 4735.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Injection-107 (5.3 kg)",
+        "status": "order",
+        "uom": "5.3 KG",
+        "price": 39000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Injection-107 (10.6 kg)",
+        "status": "order",
+        "uom": "10.6 KG",
+        "price": 70000.0,
+        "image_url": ""
+      }
+    ],
+    "Concrete Protection and Impregnation": [
+      {
+        "name": "Sikagard 701 W (5 L)",
+        "status": "stock",
+        "uom": "5 L",
+        "price": 4150.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikagard 701 W (20 kg)",
+        "status": "stock",
+        "uom": "20 KG",
+        "price": 16065.0,
+        "image_url": ""
+      },
+      {
+        "name": "Purigo-5 S (5 kg)",
+        "status": "stock",
+        "uom": "5 KG",
+        "price": 1330.0,
+        "image_url": ""
+      },
+      {
+        "name": "Purigo-5 S (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 6225.0,
+        "image_url": ""
+      },
+      {
+        "name": "Purigo-5 S (200 kg)",
+        "status": "stock",
+        "uom": "200 KG",
+        "price": 48895.0,
+        "image_url": ""
+      },
+      {
+        "name": "Purigo-5 S (1000 kg)",
+        "status": "stock",
+        "uom": "1000 KG",
+        "price": 178810.0,
+        "image_url": ""
+      }
+    ],
+    "Flooring Systems": [
+      {
+        "name": "Sikafloor-3 Quartz Top Grey (25kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1205.0,
+        "image_url": ""
+      }
+    ],
+    "Epoxy and PMMA based products": [
+      {
+        "name": "Sikadur-508 (25kg) 0.1-0.3 mm",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1350.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikadur-507 MS (25kg) 0.3-0.7 mm",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1250.0,
+        "image_url": ""
+      }
+    ],
+    "Roofing": [
+      {
+        "name": "Sikalastic 560 GCC grey (20 kg)",
+        "status": "order",
+        "uom": "20 KG",
+        "price": 32000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikalastic 560 GCC white (20 kg)",
+        "status": "order",
+        "uom": "20 KG",
+        "price": 32000.0,
+        "image_url": ""
+      }
+    ],
+    "Elastic Sealing and Bonding": [
+      {
+        "name": "Sikaflex-263 black (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1915.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPrimer-206 G+P (250 ml)",
+        "status": "stock",
+        "uom": "250 ML",
+        "price": 15200.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex 221 white (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1570.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex 221 black (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1570.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Anchorfix-1 (300 ml)",
+        "status": "order",
+        "uom": "300 ML",
+        "price": 2230.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sika Anchorfix-3001 (250 ml)",
+        "status": "order",
+        "uom": "250 ML",
+        "price": 3285.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex-11FC+ grey (300 ml)",
+        "status": "stock",
+        "uom": "300 ML",
+        "price": 1070.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex-11FC Purform grey (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1560.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex Construction+ grey (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1310.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex PRO-3 Purform grey (600 ml)",
+        "status": "stock",
+        "uom": "600 ML",
+        "price": 1570.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex-406 KC (10 L)",
+        "status": "stock",
+        "uom": "10 L",
+        "price": 33000.0,
+        "image_url": ""
+      },
+      {
+        "name": "Sikaflex-406 KC Booster (150 ml)",
+        "status": "stock",
+        "uom": "150 ML",
+        "price": 2100.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaPrimer-101 (0.75 L)",
+        "status": "stock",
+        "uom": "0.75 L",
+        "price": 3265.0,
+        "image_url": ""
+      }
+    ],
+    "Tiling Products": [
+      {
+        "name": "SikaCeram-205 white (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 1510.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-80 Ceramic (20 kg)",
+        "status": "stock",
+        "uom": "20 KG",
+        "price": 640.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-105 Porcelain (20 kg)",
+        "status": "stock",
+        "uom": "20 KG",
+        "price": 930.0,
+        "image_url": ""
+      },
+      {
+        "name": "SikaCeram-205 Granite (20 kg)",
+        "status": "stock",
+        "uom": "20 KG",
+        "price": 1185.0,
+        "image_url": ""
+      }
+    ]
+  }
 }
