@@ -2311,7 +2311,7 @@
         "status": "stock",
         "uom": "1 KG",
         "price": 145.0,
-        "image_url": ""
+        "image_url": "assets/Sikalite 1kg.png"
       },
       {
         "name": "Sikalite KE (20 kg)",
@@ -2362,14 +2362,14 @@
         "status": "stock",
         "uom": "5 L",
         "price": 2150.0,
-        "image_url": ""
+        "image_url": "assets/Sikalatex KE 5kg.png"
       },
       {
         "name": "SikaLatex KE (25 L)",
         "status": "stock",
         "uom": "25 L",
         "price": 10500.0,
-        "image_url": ""
+        "image_url": "assets/Sikalatex KE 25kg .png"
       },
       {
         "name": "SikaLatex KE (200 L)",
@@ -2426,6 +2426,13 @@
         "uom": "25 L",
         "price": 24600.0,
         "image_url": ""
+      },
+      {
+        "name": "Sika MonoTop 412 S (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 0.0,
+        "image_url": "assets/Sika MonoTop 412 S .png"
       },
       {
         "name": "Sika Cemflex KE (200 L)",
@@ -2753,7 +2760,7 @@
         "status": "stock",
         "uom": "ROLL",
         "price": 6681.0,
-        "image_url": ""
+        "image_url": "assets/Sikashield P24.png"
       },
       {
         "name": "SikaShield P24 PE 4mm (10 m2)",
@@ -2788,7 +2795,7 @@
         "status": "order",
         "uom": "5.3 KG",
         "price": 39000.0,
-        "image_url": ""
+        "image_url": "assets/sikaTop seal-107.png"
       },
       {
         "name": "Sika Injection-107 (10.6 kg)",
@@ -2796,6 +2803,34 @@
         "uom": "10.6 KG",
         "price": 70000.0,
         "image_url": ""
+      },
+      {
+        "name": "SikaTop Seal-105 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 0.0,
+        "image_url": "assets/Sikatop - 105 seal KE.png"
+      },
+      {
+        "name": "SikaTop Seal-105 (5 kg)",
+        "status": "stock",
+        "uom": "5 KG",
+        "price": 0.0,
+        "image_url": "assets/sikatop seal 105 (A) 5kg .png"
+      },
+      {
+        "name": "SikaTop Seal-107 (25 kg)",
+        "status": "stock",
+        "uom": "25 KG",
+        "price": 0.0,
+        "image_url": "assets/sikatop  seal -107 KE 25kg .png"
+      },
+      {
+        "name": "SikaTop Seal-107 (5 kg)",
+        "status": "stock",
+        "uom": "5 KG",
+        "price": 0.0,
+        "image_url": "assets/sika Top Seal- 107 comp(A) 5kg.png"
       }
     ],
     "Concrete Protection and Impregnation": [
@@ -2848,7 +2883,7 @@
         "status": "stock",
         "uom": "25 KG",
         "price": 1205.0,
-        "image_url": ""
+        "image_url": "assets/Sikafloor -3.png"
       }
     ],
     "Epoxy and PMMA based products": [
